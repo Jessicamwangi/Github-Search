@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {Http, Headers} from '@angular/http';
+import { HttpClient } from '@angular/common/http';
 import 'rxjs/add/operator/map';
 
 @Injectable({
@@ -7,5 +7,9 @@ import 'rxjs/add/operator/map';
 })
 export class ProfileService {
 
-  constructor() { }
+  private username: string | undefined;
+  private clientid = '';
+  private clientsecret = '';
+
+  constructor(private http:HttpClient) { }
 }
