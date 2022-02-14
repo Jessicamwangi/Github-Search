@@ -1,4 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-dark info-color-dark">
+  <a class="navbar-brand" routerLink="user-profile"><strong>GitHub-Search</strong> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto mt-3 mt-lg-0" >
+      <li class="nav-item ">
+        <a class="nav-link" routerLink="user-profile">Search User<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <ul class="navbar-nav nav-flex-icons ico" >
+      <li class="nav-item">
+        <a class="nav-link"><i class="fab fa-github"style="font-size:20px"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"><i class="fab fa-twitter"style="font-size:20px"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"><i class="fab fa-instagram"style="font-size:20px"></i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <div class="container-body">
+
+  <div class="input-group rounded">
+    <input type="text" class="form-control rounded" placeholder="Enter UserName" [(ngModel)]="username" name="username" (keyup)="searchUser()" style="text-align:center" aria-label="Search" aria-describedby="search-addon" />
+    <span class="input-group-text border-0" id="search-addon">
+      <i class="fas fa-search"></i>
+    </span>
+  </div>
 <div *ngIf="Users">
   <div class="panel panel-default">
     <div class="panel-heading">

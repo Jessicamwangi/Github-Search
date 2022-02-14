@@ -2,7 +2,7 @@
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   border-radius: 30px;
-  background-color: #5d9de6;
+  background-color: hsl(0, 0%, 0%);
   opacity: 0.9;
   margin: 10px;
 }
@@ -19,10 +19,14 @@ p {
 }
 
 body {
+  background-image: url("../assets/backgoud.jpg");
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container{
   opacity: 0.85;
+  
 }
