@@ -8,12 +8,18 @@ import { ProfileService } from '../profile-service/profile.service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  profile!: any[];
+  Users: any=[];
+  Repos: any=[];
+  username!: string;
 
   constructor(private profileService: ProfileService) {
-    this.profileService.getProfileInfo().subscribe((profile: any) =>{
-      console.log(profile);
-      this.profile = profile;
+    this.profileService.getUserInfo().subscribe(user => {
+      console.log(user);
+      this.Users = user;
+    });
+    this.profileService.getReposInfo().subscribe(repos => {
+      // console.log(user);
+      this.Repos = repos;
     });
    }
 
