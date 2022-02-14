@@ -1,7 +1,7 @@
 # GithubSearch
 This is a project where you are able to search people's github accounts and see their following and repos.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
-Live link: 
+Live link: https://jessicamwangi.github.io/Github-Search/
 
 #### By Jessica Mwangi
 ## Description
