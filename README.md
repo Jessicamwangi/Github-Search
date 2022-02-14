@@ -1,27 +1,36 @@
 # GithubSearch
 This is a project where you are able to search people's github accounts and see their following and repos.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
+Live link: 
 
-## Development server
+#### By Jessica Mwangi
+## Description
+This is a project in which you are able to view a users profile, see their repos, followers, their info and to be able to see the various repository a certain user has and be able to navigate to their GitHub profile to view.
+## Setup/Installation Requirements
+To Be able to view this webpage, you need:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+-To have access to github.
 
-## Code scaffolding
+-To have access to terminal.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-To have to have either Vs code or atom
 
-## Build
+-Do git clone https://github.com/Jessicamwangi/Github-Search.git to be able to clone this file to your computer and view it.
+## Technologies Used
+Technologies used in this webpage are 
+HTML.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+CSS.
 
-## Running unit tests
+Bootstrap.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Fontawsome.
 
-## Running end-to-end tests
+JavaScript.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+TypeScript.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Bootstrap.js.
+### License
+Copyright (c) [2021] [Jessica Mwangi.]
+[MIT License](http
