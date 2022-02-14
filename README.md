@@ -33,4 +33,4 @@ TypeScript.
 Bootstrap.js.
 ### License
 Copyright (c) [2021] [Jessica Mwangi.]
-[MIT License](http
+[MIT License](https://choosealicense.com/licenses/mit/)
